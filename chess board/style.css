@@ -1,0 +1,35 @@
+body{
+    background: url(https://github.com/racharlasrikanth/chessGameHtmlCss/blob/master/pic1.jpeg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    padding-top: 3%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1:hover{
+    color: #e4d60b;
+}
+td{
+    height: 60px;
+    width: 60px;
+}
+#black{
+    background: black;
+}
+#white{
+    background: white;
+}
+table{
+    margin: auto;
+    border: #ffffff 7px solid;
+    cursor: pointer;
+}
+#white:hover{
+    background: red;
+}
+#black:hover{
+    background: red;
+}
